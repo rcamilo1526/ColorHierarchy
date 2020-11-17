@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+
+}
+.arrowR{
+  position:absolute;
+  top:80%;
+  left:0px;
+  z-index:1;
+      width: 0;
+      height: 0;
+      border-top: 70px solid black;
+      border-right: 40px solid transparent;
+}
+.arrowL{
+  position:absolute;
+  top:80%;
+  right:0px;
+  z-index:1;
+      width: 0;
+      height: 0;
+      border-top: 70px solid black;
+      border-left: 40px solid transparent;
+}
+.ms-section {
+ display: inline-block;
+ text-align: center;
+ font-family: 'Roboto',sans-serif;
+ font-size: 25px;
+ color: black;
+}
+.bold {
+  font-weight: 900;
+  font-size: 65px;
+}
+.stitle{
+  font-weight: lighter;
+  font-size: 65px;
+}
+.con-1l{
+  background: linear-gradient(
+    to right,
+    #F44336 33%,
+    #e67e22 33%,
+    #e67e22 66%,
+    #FDD835 66%,
+    #FDD835 100%);
+  color: white;
+}
+.con-1r {
+  background: linear-gradient(
+    to right,
+    #27ae60 33%,
+    #1E88E5 33%,
+    #1E88E5 66%,
+    #8e44ad 66%,
+    #8e44ad 100%);
+  color: white;
+}
+.con-2r{background:
+  linear-gradient(
+    to right,
+    #FF0000 33%,
+    #FFFF00 33%,
+    #FFFF00 66%,
+    #0000FF 66%,
+    #0000FF 100%
+    )
+}
+.con-3l{background:
+  linear-gradient(
+    to right,
+    #00FF00 33%,
+    #FF00FF 33%,
+    #FF00FF 66%,
+    #FF7D00 66%,
+    #FF7D00 100%
+    )
+}
+.con-4r{
+  background:
+    linear-gradient(
+      to right,
+      #AAFF00 11%,
+      #FFAA00 11%,
+      #FFAA00 22%,
+      #00AAFF 22%,
+      #00AAFF 33%,
+      #AA00FF 33%,
+      #AA00FF 44%,
+      #FF00AA 44%,
+      #FF00AA 55%,
+      #FFDC00 55%,
+      #FFDC00 66%,
+      #FFC800 66%,
+      #FFC800 77%,
+      #C800FF 77%,
+      #C800FF 88%,
+      #C800FA 88%,
+      #C800FA 100%
+    
+  )
+}
+
+.con-5l{
+  background:
+    linear-gradient(
+      to right,
+      #D15827 16%,
+      #EB9E19 16%,
+      #EB9E19 33%,
+      #82B83C 33%,
+      #82B83C 49%,
+      #289988 49%,
+      #289988 66%,
+      #665CB2 66%,
+      #665CB2 83%,
+      #A43F72 83%,
+      #A43F72 100%
+  )
+}
+
+.con-6r{
+  background:
+    linear-gradient(
+      to right,
+      #D15827 16%,
+      #EB9E19 16%,
+      #EB9E19 33%,
+      #82B83C 33%,
+      #82B83C 49%,
+      #289988 49%,
+      #289988 66%,
+      #665CB2 66%,
+      #665CB2 83%,
+      #A43F72 83%,
+      #A43F72 100%
+  )
+}
+
+.con-7l{
+  background:
+    linear-gradient(
+      to right,
+      #D15827 16%,
+      #EB9E19 16%,
+      #EB9E19 33%,
+      #82B83C 33%,
+      #82B83C 49%,
+      #289988 49%,
+      #289988 66%,
+      #665CB2 66%,
+      #665CB2 83%,
+      #A43F72 83%,
+      #A43F72 100%
+  )
+}
+
+
+.con-8l{
+  background-image:url('RYB.png');
+  background-position: center;
+  background-size: 50% 50% ;
+  
+}
+
+
+.ms-middlel{
+  float:right;
+}
+.ms-middler{
+  float:left;
+}
+.content{
+  width:60%;
+  margin:0 auto;
+  text-align: justify;
+}
+
+.content_final{
+  width:60%;
+  margin:0 auto;
+  text-align: 'left';
+}
+
+#colorMixer{
+
+  width:60%;
+  height:40vh;
+  margin:0 auto;
+  background-color: rgb(0, 0, 0);
+
+}
+
+#slider-container{
+  width:60%;
+  height:40vh;
+  margin:0 auto;
+
+}
+
+.range{
+  display:block;
+  width: 100%;
+}
+
+@keyframes beat {
+  0%{
+    transform: scale(0.98);
+  }
+  100%{
+    transform: scale(1.25);
+  }
+}
+
+@media only screen and (max-width: 892px){
+  .bold{
+    font-size: 45px;
+  }
+  .ms-section {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 637px){
+  .bold{
+    font-size: 32px;
+  }
+  .ms-section {
+    font-size: 17px;
+  }
+  .special {
+    font-size: 22px;
+  }
+
+}
