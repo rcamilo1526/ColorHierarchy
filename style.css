@@ -100,11 +100,17 @@ body {
   background:
     linear-gradient(
       to right,
-      #FFC800 33%,
-      #C800FF 33%,
-      #C800FF 66%,
-      #C800FA 66%,
-      #C800FA 100%
+      #D2DF33 16%,
+      #33DF9E 16%,
+      #33DF9E 32%,
+      #633FDC 32%,
+      #633FDC 48%,
+      #F5679C 48%,
+      #F5679C 64%,
+      #E8522D 64%,
+      #E8522D 80%,
+      #E3C81F 80%,
+      #E3C81F 100%
   )
 }
 
